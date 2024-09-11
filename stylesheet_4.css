@@ -1,0 +1,131 @@
+header{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-variant: inherit;
+    color: rgb(0, 0, 0);
+    background-color: rgb(53, 126, 63);
+    padding: 10px 10px 20px 20px;
+    background-image: url("placeholder images/sharon-mccutcheon-unsplash.jpg");
+    background-repeat: no-repeat;
+    line-height: 60%;
+    block-size: auto;
+    text-shadow: 5px 5px 5px rgb(77, 81, 193);
+
+}
+
+body{
+    background-color:rgb(133, 168, 182);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 0%;
+}
+
+.row{
+    text-align: left;
+    margin-inline: 0;
+    flex-wrap: wrap;
+    float: left;
+}
+.resume{
+    padding: 10px 10px 10px 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: rgb(133, 168, 182);
+}
+section{
+    line-height: 50px;
+    padding: 10px 10px 10px 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.project-images{
+    display: flow-root;
+}
+.project-images img{
+    float:left;
+    margin-bottom: 20px;
+}
+.content-wrapper{
+    font-size: 25px;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+    box-sizing: border-box;
+    float: left;
+    line-height: 50%;
+    
+}
+.recent{ 
+    align-content: left;
+    box-sizing: border-box;
+    font-size: 20px;
+    display: flow-root ;
+    padding: 20px 20px 20px 20px;
+    border-style: dotted;
+    border-color: rgb(134, 106, 181);
+    border-width: 10px;
+
+}
+
+.p2{
+    text-align: center;
+
+}
+p{
+    font-size: 26px;
+    margin: 0 5px 5px 0;
+    text-align: justify;
+}
+h1{
+    text-align: left;
+    font-size: 100px;
+    font-family: fantasy;
+    text-shadow: 20%;
+    padding: 100px 5px 5px 5px;
+}
+h2{
+    text-align: center;
+    font-family: fantasy;
+}
+h3{
+    text-align: center;
+    color: white;
+    background-color: rgb(72, 85, 131);
+    padding: 10px 5px 5px 5px;
+    font-size: 22px;
+    font-family: fantasy;
+}
+h4{
+    font-size: 30px;
+    font-style: italic;
+    line-height: 10px;
+    color: rgb(44, 51, 76);
+}
+h5{
+    font-size: 30px;
+    font-style: italic;
+    padding: 0 5px;
+    text-align: right;
+    color: white;
+
+}
+button{
+    background-color:  rgb(133, 172, 165);
+    height: 35px;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(44, 51, 76);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color:white
+}
+a:link, a:visited{
+    color: rgb(134, 106, 181);
+}
+a:hover{
+    color: rgb(150, 216, 193);
+}
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
